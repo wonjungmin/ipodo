@@ -39,7 +39,7 @@ public class ConversionServiceImpl implements ConversionService {
 
 		DecimalFormat fmt = new DecimalFormat(pattern);
 
-		System.out.println(fmt.format(num));
+		System.out.println(fmt.format(vo.getNum()));
 
 	}
 

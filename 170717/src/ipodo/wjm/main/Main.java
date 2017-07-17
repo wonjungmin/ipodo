@@ -21,7 +21,7 @@ public class Main {
 
 		// 소수점 2자리
 
-		csi.setExternalNum(45454.4545);
+		csi.setExternalNum(vo.setNum(123.36456456456));
 
 	}
 
