@@ -17,6 +17,6 @@ public class ValueOf {
 		this.num = num;
 
 		return num;
-	};
+	}
 
 }

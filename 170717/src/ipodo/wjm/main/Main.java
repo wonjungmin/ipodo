@@ -13,15 +13,14 @@ public class Main {
 
 		ValueOf vo = new ValueOf();
 		// 문자열 list
-		
+
 		csi.setExternalSpell(vo);
-		
 		csi.setSpelling("wonjungmin");
-		
 
 		// 소수점 2자리
 
 		csi.setExternalNum(vo.setNum(123.36456456456));
+
 
 	}
 
