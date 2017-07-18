@@ -19,12 +19,13 @@ public class ConversionServiceImpl implements ConversionService {
 
 	@Override
 	public List<?> setSpelling(String string) {
-		// TODO Auto-generated method stub
+		
 		return asList(vo.getSpelling(string));
 	}
 
+	@SuppressWarnings("unchecked")
 	private List<Character> asList(char[] charArray) {
-		// TODO Auto-generated method stub
+		
 		List<?> result = IntStream.range(0, charArray.length).mapToObj(i -> charArray[i]).collect(Collectors.toList());
 
 		result.forEach(System.out::println);
@@ -42,5 +43,7 @@ public class ConversionServiceImpl implements ConversionService {
 		System.out.println(fmt.format(vo.getNum()));
 
 	}
+	
+	
 
 }
